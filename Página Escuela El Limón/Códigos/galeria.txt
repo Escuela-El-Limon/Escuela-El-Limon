@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de la Escuela</title>
+
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Colores de los botones de navegación */
+        .inicio { background-color: #4CAF50; }     /* Verde */
+        .ubicacion { background-color: #2196F3; }  /* Azul */
+        .eventos { background-color: #FFC107; }    /* Amarillo */
+        .historia { background-color: #FF5722; }    /* Naranja */
+
+        /* Estilos de la galería */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            margin: 10px;
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+         h1 {
+            color: #ffff00;
+            margin-bottom: 20px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><b>Galería de la Escuela</b></h1>
+    </header>
+
+    <nav>
+        <a href="index.html" class="inicio">Inicio</a>
+        <a href="ubicacion.html" class="ubicacion">Ubicación</a>
+        <a href="eventos.html" class="eventos">Eventos</a>
+        <a href="historia.html" class="historia">Historia</a>
+    </nav>
+
+    <section>
+        <h2>Momentos Destacados de Nuestra Escuela</h2>
+        <div class="gallery">
+            <img src="D:\Página Escuela El Limón\Imagenes\Etnia Negra.jpg" alt="Etnia Negra">
+            <img src="D:\Página Escuela El Limón\Imagenes\DARE.jpg" alt="DARE">
+            <img src="D:\Página Escuela El Limón\Imagenes\Festival de Inglés.jpg" alt="Festival de Inglés">
+            <img src="D:\Página Escuela El Limón\Imagenes\Reinado-Etnia Negra.jpg" alt="Reinado">
+            <img src="D:\Página Escuela El Limón\Imagenes\1.jpg" alt="1">
+            <img src="D:\Página Escuela El Limón\Imagenes\2.jpg" alt="2">
+            <img src="D:\Página Escuela El Limón\Imagenes\Prom.2023.jpg" alt="Promo.2023">
+            <img src="D:\Página Escuela El Limón\Imagenes\3.jpg" alt="3">
+            <img src="D:\Página Escuela El Limón\Imagenes\4.jpg" alt="4">
+            <img src="D:\Página Escuela El Limón\Imagenes\5.jpg" alt="5">
+            <img src="D:\Página Escuela El Limón\Imagenes\6.jpg" alt="6">
+            <img src="D:\Página Escuela El Limón\Imagenes\7.jpg" alt="7">
+            <img src="D:\Página Escuela El Limón\Imagenes\8.jpg" alt="8">
+            <img src="D:\Página Escuela El Limón\Imagenes\9.jpg" alt="9">
+            <img src="D:\Página Escuela El Limón\Imagenes\10.jpg" alt="10">
+            <img src="D:\Página Escuela El Limón\Imagenes\11.jpg" alt="11">
+            <img src="D:\Página Escuela El Limón\Imagenes\12.jpg" alt="12">
+            <img src="D:\Página Escuela El Limón\Imagenes\13.jpg" alt="13">
+            <img src="D:\Página Escuela El Limón\Imagenes\14.jpg" alt="14">
+            <img src="D:\Página Escuela El Limón\Imagenes\15.jpg" alt="15">
+            <img src="D:\Página Escuela El Limón\Imagenes\16.jpg" alt="16">
+            <img src="D:\Página Escuela El Limón\Imagenes\17.jpg" alt="17">
+            <img src="D:\Página Escuela El Limón\Imagenes\18.jpg" alt="18">
+            <img src="D:\Página Escuela El Limón\Imagenes\19.jpg" alt="19">
+            <img src="D:\Página Escuela El Limón\Imagenes\20.jpg" alt="20">
+            <img src="D:\Página Escuela El Limón\Imagenes\21.jpg" alt="21">
+            <img src="D:\Página Escuela El Limón\Imagenes\22.jpg" alt="22">
+            <img src="D:\Página Escuela El Limón\Imagenes\23.jpg" alt="23">
+            <img src="D:\Página Escuela El Limón\Imagenes\24.jpg" alt="24">
+            <img src="D:\Página Escuela El Limón\Imagenes\25.jpg" alt="25">
+            <img src="D:\Página Escuela El Limón\Imagenes\26.jpg" alt="26">
+            <img src="D:\Página Escuela El Limón\Imagenes\27.jpg" alt="27">
+            <img src="D:\Página Escuela El Limón\Imagenes\28.jpg" alt="28">
+            <img src="D:\Página Escuela El Limón\Imagenes\29.jpg" alt="29">
+            <img src="D:\Página Escuela El Limón\Imagenes\30.jpg" alt="30">
+            <img src="D:\Página Escuela El Limón\Imagenes\Aniversario°54.jpg" alt="Aniversario54">
+            <img src="D:\Página Escuela El Limón\Imagenes\Cabalgata.jpg" alt="Cabalgata">
+            <img src="D:\Página Escuela El Limón\Imagenes\Etnia Negra2.jpg" alt="E.N2">
+            <img src="D:\Página Escuela El Limón\Imagenes\Feria Cient. 2°.jpg" alt="Feria Cient. 2°">
+            <img src="D:\Página Escuela El Limón\Imagenes\Feria Cient. 4°.jpg" alt="Feria Cient. 4°">
+            <img src="D:\Página Escuela El Limón\Imagenes\Feria Cient. 5°.jpg" alt="Feria Cient. 5°">
+            <img src="D:\Página Escuela El Limón\Imagenes\Feria Cient.6.jpg" alt="Feria Cient.6">
+            <img src="D:\Página Escuela El Limón\Imagenes\Feria Cient.7.jpg" alt="Feria Cient.7">
+            <img src="D:\Página Escuela El Limón\Imagenes\Festival de Inglés.jpg" alt="Festival de Inglés">
+            <img src="D:\Página Escuela El Limón\Imagenes\Quinto A.jpg" alt="Quinto A">
+            <img src="D:\Página Escuela El Limón\Imagenes\Reinado-Etnia Negra.jpg" alt="Reinado">
+            <img src="D:\Página Escuela El Limón\Imagenes\31.jpg" alt="31">
+            <img src="D:\Página Escuela El Limón\Imagenes\32.jpg" alt="32">
+            <img src="D:\Página Escuela El Limón\Imagenes\33.jpg" alt="33">
+            <img src="D:\Página Escuela El Limón\Imagenes\34.jpg" alt="34">
+            <img src="D:\Página Escuela El Limón\Imagenes\35.jpg" alt="35">
+            <img src="D:\Página Escuela El Limón\Imagenes\36.jpg" alt="36">
+            <img src="D:\Página Escuela El Limón\Imagenes\37.jpg" alt="37">
+            <img src="D:\Página Escuela El Limón\Imagenes\38.jpg" alt="38">
+            <img src="D:\Página Escuela El Limón\Imagenes\39.jpg" alt="39">
+            <img src="D:\Página Escuela El Limón\Imagenes\40.jpg" alt="40">
+            <img src="D:\Página Escuela El Limón\Imagenes\41.jpg" alt="41">
+            <img src="D:\Página Escuela El Limón\Imagenes\42.jpg" alt="42">
+         
+            <!-- Agrega más imágenes repitiendo las líneas de arriba -->
+        </div>
+    </section>
+</body>
+</html>

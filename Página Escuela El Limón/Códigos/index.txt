@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Escuela El Limón</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Diferentes colores para los botones de navegación */
+        .historia { background-color: #4CAF50; }  /* Verde */
+        .ubicacion { background-color: #2196F3; }  /* Azul */
+        .eventos { background-color: #FFC107; }    /* Amarillo */
+        .galeria { background-color: #FF5722; }    /* Naranja */
+
+        section {
+            background-color: rgba(204, 255, 204);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 auto;
+            width: 80%;
+            text-align: justify;  /* Justificación del texto */
+       
+
+         }
+            p {
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1,h2 {
+            color: ffff00;
+        }
+
+
+        h4 {
+            color: #333;
+        }
+         
+
+       
+    </style>
+</head>
+
+<body>
+
+    <header>
+      <h1>Bienvenidos a la Escuela El Limón</h1>
+        <p><h3><b style="font-size: 1.2em;">Estudio, Trabajo, Progreso</b></h3></p>  <!-- Eslógan más resaltado -->
+    </header>
+
+    <nav>
+        <a href="historia.html" class="historia">Historia</a>
+        <a href="ubicacion.html" class="ubicacion">Ubicación</a>
+        <a href="eventos.html" class="eventos">Eventos</a>
+        <a href="galeria.html" class="galeria">Galería</a>
+    </nav>
+
+    <section>
+        <h4></h4>
+        <p>
+            <h4>Te damos la bienvenida a nuestro sitio oficial, donde podrás conocer más sobre nuestra escuela, nuestras iniciativas y los maravillosos docentes que hacen posible el desarrollo de nuestros estudiantes.
+            Explora nuestras diferentes secciones para aprender más sobre la escuela, eventos y ubicación.</h4>
+        </p>
+    </section>
+
+</body>
+</html>
+
+ 
